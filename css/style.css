@@ -10,6 +10,41 @@
 /* Hover Effects */
 
 /* Responsive design */
-.hero-section {
-    background-color: green;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* aikhane colors gula define korbo */
+    --bg: #252439;
+    --about: #6244c5;
+    --projects: #ffc448;
+
+    --text-dark: #12141d;
+    --text-white: #FFFFFF;
+    --text-gray: #C4C4C4;
+    --btn-primary: #6244c5;
+    --font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--projects);
+    color: var(--text-white);
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    background-color: var(--about);
+    padding: 4rem 0;
 }
