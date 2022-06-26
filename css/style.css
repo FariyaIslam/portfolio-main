@@ -131,6 +131,12 @@ a {
 }
 
 .follow-me {
-    margin: 1.2rem 0;
-    font-weight: 700;
+    margin: 2rem 0 0.5rem 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+}
+
+.follow-icons img {
+    width: 32px;
 }
