@@ -129,6 +129,7 @@ a {
     align-items: center;
     font-weight: bold;
 }
+
 .follow-me {
     margin: 2rem 0 0.5rem 0;
     font-weight: 600;
@@ -138,4 +139,21 @@ a {
 
 .follow-icons img {
     width: 32px;
+}
+
+.about {
+    width: 100%;
+    height: 80vh;
+
+    background-color: #ffc448;
+}
+
+.about__left {
+    width: 50%;
+    background-color: aqua;
+}
+
+.about__right {
+    width: 50%;
+    background-color: #6244c5git ;
 }
