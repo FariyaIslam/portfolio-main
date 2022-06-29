@@ -10,7 +10,6 @@
 /* Hover Effects */
 
 /* Responsive design */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -28,7 +27,7 @@
     --text-gray: #C4C4C4;
     --btn-primary: #6244c5;
     --font-family: 'Inter', sans-serif;
-    --font-family: '', sans-serif;
+    --font-family: 'DM Sans', sans-serif;
 }
 
 body {
