@@ -167,7 +167,7 @@ a {
     font-family: var(--font-dmsans);
     align-items: center;
     padding: 4rem 2rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .about__right h1 {
@@ -182,4 +182,15 @@ a {
     color: #C4C4C4;
     line-height: 2rem;
 
+}
+
+.cv {
+    padding: 15px 30px 16px;
+    background-color: white;
+    color: var(--text-dark);
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin: 2rem 0;
 }
