@@ -26,14 +26,14 @@
     --text-white: #FFFFFF;
     --text-gray: #C4C4C4;
     --btn-primary: #6244c5;
-    --font-family: 'Inter', sans-serif;
-    --font-family: 'DM Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-dmsans: 'DM Sans', sans-serif;
 }
 
 body {
     background-color: var(--bg);
     color: var(--text-white);
-    font-family: var(--font-family);
+    font-family: var(--font-inter);
 }
 
 a {
@@ -154,12 +154,17 @@ a {
 
 .about__left {
     width: 50%;
-    background-color: aqua;
+    margin: auto 0;
+}
+
+.about__left img {
+    width: 90%;
+
 }
 
 .about__right {
     width: 50%;
-    font-family: var(--font-family);
+    font-family: var(--font-dmsans);
     align-items: center;
     padding: 4rem 2rem;
     margin-top: 10rem;
@@ -167,9 +172,9 @@ a {
 
 .about__right h1 {
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 0 2rem 0;
-    letter-spacing: -2px;
+
 
 }
 
