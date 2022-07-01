@@ -198,3 +198,11 @@ a {
 .portfolio__section {
     height: 800vh;
 }
+
+.service__section {
+    height: 700vh;
+}
+
+.blog__section {
+    height: 100vh;
+}
