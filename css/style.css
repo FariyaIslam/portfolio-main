@@ -194,3 +194,7 @@ a {
     display: inline-block;
     margin: 2rem 0;
 }
+
+.portfolio__section {
+    height: 800vh;
+}
