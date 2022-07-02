@@ -197,6 +197,7 @@ a {
 
 .portfolio__section {
     height: 800vh;
+    background-color: aquamarine;
 }
 
 .service__section {
