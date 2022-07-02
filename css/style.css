@@ -196,21 +196,21 @@ a {
 }
 
 .portfolio__section {
-    height: 800vh;
+    height: 80vh;
     background-color: aquamarine;
 }
 
 .service__section {
-    height: 700vh;
+    height: 100vh;
     background-color: red;
 }
 
 .blog__section {
-    height: 100vh;
+    height: 70vh;
     background-color: royalblue;
 }
 
 .contact__section {
-    height: 700vh;
+    height: 80vh;
     background-color: #ffc448;
 }
