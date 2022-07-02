@@ -201,6 +201,7 @@ a {
 
 .service__section {
     height: 700vh;
+    background-color: red;
 }
 
 .blog__section {
