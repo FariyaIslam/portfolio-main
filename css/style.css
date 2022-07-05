@@ -201,9 +201,18 @@ a {
 }
 
 .service__section {
-    height: 100vh;
-    background-color: red;
+    height: 80vh;
+    background-color: #12141D;
+    color: #bebdc4;
 }
+
+.service__section h1 {
+    line-height: 1.2;
+    font-family: var(--font-dmsans);
+    margin: 6rem 0;
+
+}
+
 
 .blog__section {
     height: 70vh;
