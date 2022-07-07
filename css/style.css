@@ -203,7 +203,12 @@ a {
 }
 
 .service__part {
-    margin: 7rem 0 4rem 0;
+    margin: 5rem 0 4rem 0;
+}
+
+.service__part h1 {
+    font-size: 45px;
+    font-family: var(--font-dmsans);
 }
 
 .service__list {
@@ -214,18 +219,28 @@ a {
     padding-bottom: 26px;
     padding-left: 25px;
     padding-right: 35px;
+    background-color: var(--btn-primary);
+    margin-bottom: 2rem;
+
 }
 
 .service__left {
-    box-sizing: border-box;
+    width: 30%;
+    margin-right: 15%;
     background-color: #ffc448;
+    background-color: var(--btn-primary);
+
 }
 
 .service__right {
     background-color: aquamarine;
     align-items: center;
     justify-content: center;
+    background-color: var(--btn-primary);
 }
+
+
+
 
 .portfolio__section {
     height: 80vh;
