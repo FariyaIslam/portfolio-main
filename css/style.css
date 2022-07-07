@@ -204,6 +204,7 @@ a {
 
 .service__part {
     margin: 5rem 0 4rem 0;
+
 }
 
 .service__part h1 {
@@ -219,24 +220,28 @@ a {
     padding-bottom: 26px;
     padding-left: 25px;
     padding-right: 35px;
-    background-color: var(--btn-primary);
+
     margin-bottom: 2rem;
 
+}
+
+.service__list:hover {
+    background-color: var(--btn-primary);
 }
 
 .service__left {
     width: 30%;
     margin-right: 15%;
-    background-color: #ffc448;
-    background-color: var(--btn-primary);
+
+
 
 }
 
 .service__right {
-    background-color: aquamarine;
+
     align-items: center;
     justify-content: center;
-    background-color: var(--btn-primary);
+
 }
 
 
